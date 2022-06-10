@@ -8,6 +8,18 @@ var Json_Binding_Error string = "Json Data Biding Error."
 var Database_Connection_Error string = "Database Coneection Error."
 var Database_Value_Error string = "Database Error"
 
+/* Keycloak Error Content */
+var Get_Token_Error string = "Get Token Error"
+var Marshal_Error string = "Marshal_Error"
+var Unmarshal_Error string = "Unmarshal Error"
+var Access_Denied_Error string = "Access Denied Error"
+var ReadIO_Error string = "Read Body Io Buffer Error"
+var Client_Result_Error string = "Client Result Error"
+
+/* k8s Error */
+var Duplicate_Error string = "Already Exists"
+var Create_Error string = "Not Created"
+
 type ErrorContent struct {
 	Method       string
 	ErrorContent string
